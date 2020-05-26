@@ -1,13 +1,13 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   box-sizing: border-box;
 }
 
 
 [class*="col-"] {
 
-  background-color: lightblue;
+  /* background-color: lightblue; */
   border: 1px solid black;
   /* width: 100%; */
   min-height: 200px;
@@ -34,4 +34,8 @@
 }
 .rientro15 {
   padding:0 15%;
+}
+
+.background_footer {
+  background-color: #2d5980;
 }
