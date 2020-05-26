@@ -10,6 +10,28 @@
   background-color: lightblue;
   border: 1px solid black;
   /* width: 100%; */
+  min-height: 200px;
+  /* margin: 5px auto; */
+}
+
+.background_nav {
+  background-color: #053c63;
+}
+
+.background_jumbo {
+  background-color: #28a6a6;
+}
+.omino {
   height: 200px;
-  margin: 5px auto;
+}
+
+.background_portfolio {
+  background-color: white;
+}
+
+.rientro10 {
+  padding:0 10%;
+}
+.rientro15 {
+  padding:0 15%;
 }
