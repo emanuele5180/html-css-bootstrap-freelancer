@@ -8,18 +8,16 @@
   text-align: center;
 } */
 
-
-[class*="col-"] {
-
-  /* border: 1px solid black; */
-  /* width: 100%; */
-  min-height: 50px;
-  /* margin: 5px auto; */
+.star {
+  text-align: center;
 }
-
 .star .riga {
   display: inline-block;
   width: 50px;
+  height: 4px;
+  line-height: 4px;
+  vertical-align: middle;
+
 }
 
 .star i{
@@ -79,10 +77,11 @@ header .navbar-default {
 }
 
 .imgportfolio {
-  height: 200px;
+  /* height: 200px; */
   margin: 15px;
   border-radius: 5px;
-  text-align: center;
+  width: 100%;
+
 }
 
 .about {
@@ -98,7 +97,7 @@ header .navbar-default {
 }
 h2 {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .rientro10 {
@@ -112,6 +111,14 @@ form .form-group .formcontrol {
   text-align: left;
 }
 
+.my_formcontrol {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid black;
+
+}
+
 .btn-default {
   background-color:#28a6a6;
   background-image: none;
@@ -123,4 +130,11 @@ form .form-group .formcontrol {
 
 .background_footer {
   background-color: #2d5980;
+}
+
+.location {
+  height: 200px;
+  color: white;
+  
+
 }
