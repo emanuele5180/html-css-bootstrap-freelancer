@@ -11,7 +11,6 @@
 
 [class*="col-"] {
 
-  /* background-color: lightblue; */
   /* border: 1px solid black; */
   /* width: 100%; */
   min-height: 50px;
@@ -25,6 +24,10 @@ header {
 .background_nav {
   background-color: #053c63;
   color: white;
+}
+
+.navbar-header {
+  background-color: #053c63;
 }
 
 
@@ -61,6 +64,7 @@ header {
 }
 h2 {
   margin-top: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .rientro10 {
