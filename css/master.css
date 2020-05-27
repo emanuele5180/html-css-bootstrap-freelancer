@@ -130,12 +130,14 @@ form .form-group .formcontrol {
 
 .background_footer {
   background-color: #2d5980;
+  min-height: 100px;
+  padding-top: 50px;
 }
 
 .location {
-  height: 200px;
+  min-height: 100px;
   color: white;
-
+  text-align: center;
 
 }
 
@@ -148,4 +150,26 @@ form .form-group .formcontrol {
   border-radius: 50%;
   color: white;
   display: inline-block;
+}
+
+.around {
+  color: white;
+  text-align: center;
+}
+
+.around a i {
+  color: white;
+}
+
+.aboutfree {
+  color: white;
+  text-align: center;
+
+}
+
+.copyright {
+  background-color: #053c63;
+  color: white;
+  text-align: center;
+  padding:20px 0;
 }
